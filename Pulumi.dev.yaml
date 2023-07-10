@@ -1,0 +1,15 @@
+config:
+  aws:region: us-east-1
+  pulumi-object-oriented:dbName: mydb01
+  pulumi-object-oriented:engine: mysql
+  pulumi-object-oriented:engineVersion: "5.7"
+  pulumi-object-oriented:instanceClass: db.t3.micro
+  pulumi-object-oriented:parameterGroupName: default.mysql5.7
+  pulumi-object-oriented:password: foobarbaz
+  pulumi-object-oriented:skipFinalSnapshot: "true"
+  pulumi-object-oriented:storage: 30
+  pulumi-object-oriented:username: foo
+
+ # pulumi-object-oriented:vpc_id: vpc-01b97c8a7e1c763d8
+  pulumi-object-oriented:privateZoneName: example.com
+  pulumi-object-oriented:cname: rds.example.com
